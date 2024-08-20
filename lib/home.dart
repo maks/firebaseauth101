@@ -19,6 +19,7 @@ class HomeScreen extends StatelessWidget {
                     appBar: AppBar(
                       title: const Text('User Profile'),
                     ),
+                    avatar: CircleAvatar(child: Image.asset('dash.png')),
                     actions: [
                       SignedOutAction((context) {
                         Navigator.of(context).pop();

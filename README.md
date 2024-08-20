@@ -1,16 +1,9 @@
-# firebaseauth101
+# Firebase Auth 101
 
-A new Flutter project.
+A simple demo of Firebase Auth using [code from the Flutter codelab](https://firebase.google.com/codelabs/firebase-auth-in-flutter-app).
 
-## Getting Started
+## Notes
 
-This project is a starting point for a Flutter application.
+Firebase project config here is for a temporary Firebase project that is only available for a short period of time, if you use this code for your own work please make sure to change the configuration in [`lib/firebase_options.dart`](lib/firebase_options.dart). 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Also note the configuration is only for building for the web.
